@@ -1,0 +1,1500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header --------------------------------------*/
+.header{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    
+}
+.header .container .navbar-brand{
+    font-size: 34px;
+    font-weight: 700;
+    color: #189a46;
+}
+.header .container .nav-item{
+    margin: 0 15px;
+}
+.header .container .navbar-nav a{
+    color: black;
+    font-size: 19.2px;
+    font-weight: 400;
+    padding: 0;
+    transform: translateY(15px);
+}
+.header .container .navbar-nav a:hover{
+    color: #189a46;
+}
+.header .container .navbar-nav hr{
+    height: 2px;
+    color: green;
+}
+.header .container .navbar-nav .nav-item .active{
+    color: #189a46;
+}
+.header .container .container-fluid .nav-toggler{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 30px;
+    display: none;
+}
+.fa-moon{
+    transform: rotate(-20deg) scale(var(--ggs, 1)) translateY(10px) !important;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+/* End header --------------------------------------*/
+
+
+
+
+
+/* Carousel --------------------------------------*/
+
+.animal-car .carousel-item img{
+    height: 900px;
+    object-fit: cover;
+}
+.animal-car .carousel-item.item-2 h5,
+.animal-car .carousel-item.item-2 p{
+    margin-left: 550px;
+}
+.animal-car .carousel-item h5{
+    color: white;
+    font-size: 66px;
+    font-weight: 900;
+    text-align: left;
+    /* margin-bottom: 400px; */
+}
+.animal-car .carousel-item p{
+    color: white;
+    font-size: 19.2px;
+    text-align: left;
+    /* margin-bottom: 400px; */
+}
+.animal-car .carousel-indicators button{
+    width: 13px;
+    height: 13px;
+    color: white;
+    border-radius: 50%;
+}
+.animal-car .carousel-indicators button:hover{
+    width: 25px;
+    height: 13px;
+    color: #189a46;
+    border-radius: 7px;
+}
+.animal-car .carousel-inner .carousel-item button{
+    font-size: 18px;
+    color: black;
+    height: 60px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 400px;
+}
+.animal-car .carousel-inner .carousel-item .bt{
+    text-align: left;
+}
+.animal-car .carousel-item.item-2 .bt{
+    margin-left: 550px;
+}
+.animal-car .carousel-item .bt .bt1{
+    background-color: white;
+    color: #189a46;
+    border: none;
+}
+.animal-car .carousel-item .bt .bt2{
+    color: #189a46;
+    border: 2px solid #189a46;
+}
+.animal-car .carousel-item .bt .bt2:hover{
+    background-color: white;
+    color: #189a46;
+    border: none;
+    transition: all 1s;
+}
+/* End carousel --------------------------------------*/
+
+
+
+
+
+/* Intro --------------------------------------*/
+.animal-intro{
+    padding: 50px 0;
+}
+.animal-intro .container{
+    max-width: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.animal-intro .container h1,
+.animal-intro .container p{
+    text-align: center;
+}
+.animal-intro .container span{
+    font-size: 18px;
+}
+.animal-intro .container h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.animal-intro .container p{
+    font-size: 19.2px;
+}
+.animal-intro .container a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #189a46;
+}
+.animal-intro .container a:hover{
+    color: #189a46;
+    transition: all 0.5 s;
+}
+/* End intro --------------------------------------*/
+
+
+
+
+
+/* Service --------------------------------------*/
+.animal-ser{
+    background-color: #f9f7fe;
+    padding: 50px 0;
+}
+.animal-ser .container .up,
+.animal-ser .container .down{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.animal-ser .container .up{
+    margin-bottom: 30px;
+}
+.animal-ser .container .up .item,
+.animal-ser .container .down .item{
+    background-color: white;
+    padding: 45px 35px;
+    border-radius: 15px;
+}
+.animal-ser .container .item:hover{
+    background-color: #f3effd;
+    transition: all 1s;
+}
+.animal-ser .container .up .item1,
+.animal-ser .container .down .item1{
+    margin: 0 50px;
+}
+.animal-ser .container .item i{
+    font-size: 30px;
+}
+.animal-ser .container .item h2{
+    font-size: 24px;
+}
+.animal-ser .container .item h2:hover{
+    color: #189a46;
+    transition: all 1s;
+}
+.animal-ser .container .item p{
+    font-size: 19.2px;
+}
+.animal-ser .container .item a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #189a46;
+}
+.animal-ser .container .item a:hover{
+    color: #189a46;
+    transition: all 1s;
+}
+/* End Service --------------------------------------*/
+
+
+
+
+
+/* Offer --------------------------------------*/
+.offer{
+    padding: 50px 0;
+}
+.offer .container{
+    display: flex;
+}
+.offer .container .col-left,
+.offer .container .col-right{
+    padding: 50px 30px;
+}
+.offer .container .col-left{
+    padding-left: 50px;
+}
+.offer .container .col-left img{
+    border-radius: 15px;
+}
+.offer .container .col-right h3{
+    font-size: 18px;
+    color: red;
+}
+.offer .container .col-right h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.offer .container .col-right p{
+    font-size: 16px;
+}
+.offer .container .col-right .item{
+    display: flex;
+    
+}
+
+.offer .container .col-right .item{
+    margin-top: 10px;
+}
+.offer .container .col-right .itemf{
+    margin-top: 50px;
+}
+.offer .container .col-right .item .item1{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.offer .container .col-right .item .item1 i{
+    color: #189a46;
+}
+.offer .container .col-right .item p{
+    font-size: 16px;
+    font-weight: 700;
+}
+/* End offer --------------------------------------*/
+
+
+
+
+
+/* Statistic --------------------------------------*/
+.statistic{
+    padding: 50px 0;
+    background-color: #189a46;
+}
+.statistic .container{
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+.statistic .container .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.statistic .container .item h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.statistic .container .item p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+/* End statistic --------------------------------------*/
+
+
+
+
+
+/* Plan --------------------------------------*/
+.plan{
+    padding: 50px 0;
+    background-color:  #f9f7fe;
+}
+.plan .title{
+    padding: 50px 0;
+}
+.plan .title .container h2{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.plan .title .container h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plan .main .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.plan .main .container.respon2{
+    display: none;
+}
+.plan .main .container .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.plan .main .container .item .pher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+.plan .main .container .item h5{
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #189a46;
+    border-radius: 10px;
+}
+.plan .main .container .item h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plan .main .container .item h4{
+    font-size: 40px;
+    font-weight: 800;
+}
+.plan .main .container .item h4 span{
+    font-size: 16px;
+}
+.plan .main .container .item h4 label{
+    font-size: 25px;
+    font-weight: 600;
+    transform: translateY(-10px);
+}
+.plan .main .container .item .item-1{
+    background-color: #189a46;
+    color: white;
+    padding: 30px 60px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.plan .main .container .item .item-1 h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.plan .main .container .item .item-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.plan .main .container .item p{
+    font-size: 18px ;
+}
+.plan .main .container .item a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #189a46;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: 470;
+    /* margin-top: 30px; */
+}
+.plan .main .container .item1{
+    padding: 50px 80px;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(250, 250, 250);
+}
+.plan .main .container .item3{
+    padding: 50px 80px;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(250, 250, 250);
+}
+.plan .main .container .item2{
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+/* End plan --------------------------------------*/
+
+
+
+
+
+/* Commit --------------------------------------*/
+.commit{
+    padding: 50px 0;
+}
+.commit .title{
+    padding: 50px 0;
+}
+.commit .title .container{
+    max-width: 1000px;
+}
+.commit .title .container h2{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.commit .title .container h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+}
+.commit .title .container p{
+    font-size: 19.2px;
+    text-align: center;
+}
+.commit .main .container{
+    max-width: 1000px;
+    position: relative;
+}
+.commit .main .container img{
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.commit .main .container a{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    /* transform: translateX(50%); */
+    z-index: 2;
+    animation: ripple 1s linear infinite;
+
+}
+.commit .main .container a i{
+    color: #189a46;
+    font-size: 25px;
+}
+/* .commit .main .container .modal{
+    max-width: 900px;
+    height: 500px;
+} */
+/* .commit .main .container .modalPet .modal-header{
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+.commit .main .modalPet .modal-content .modal-header{
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content:end ;
+}
+/* .commit .main .container .modalPet .modal-content .modal-header button{
+    margin-top: 10px;
+    margin-right: 10px;
+} */
+.commit .main .modalPet .modal-content{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commit .main .modalPet .modal-content iframe{
+    width: 40%;
+    height: 40%;
+    /* transform: translateY(-30px); */
+}
+.modal-dialog{
+    /* width: 1400px !important; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* End commit --------------------------------------*/
+
+
+
+
+
+/* Testimonial --------------------------------------*/
+.testi{
+    padding: 50px 0;
+    background-color: #f9f7fe;
+}
+.testi .title{
+    padding-bottom: 25px;
+}
+.testi .title .container h2{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.testi .title .container h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}   
+.testi .container{
+    max-width: 950px;
+}
+.testi .container .item{
+    background-color: white;
+    margin: 0 10px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.testi .container .item .item-1 p{
+    font-size: 19.2px;
+}
+.testi .container .item .item-1 p i{
+    color: #189a46;
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+}
+.testi .container .item .item-2{
+    display: flex;
+    align-items: center;
+}
+.testi .container .item .item-2 p{
+    font-size: 20px;
+    
+}
+.testi .container .item .item-2 p span{
+    font-size: 17px;
+}
+.testi .container .item .item-2 img{
+    width: 25%;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.testi .main .container.multiple-items2{
+    display: none;
+}
+/* End testimonial --------------------------------------*/
+
+
+
+
+
+/* Subcribe --------------------------------------*/
+.sub{
+    padding: 100px;
+}
+.sub .container{
+    max-width: 650px;
+}
+.sub .title h1{
+    font-size: 40px;
+    text-align: center;
+}
+.sub .title p{
+    font-size: 19.2px;
+    text-align: center;
+}
+.sub .main .container{
+    display: flex;
+}
+.sub .main .container input{
+    width: 450px;
+    font-size: 20px;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.sub .main .container button{
+    font-size: 18px;
+    background-color: #189a46;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.sub .main .container button:hover{
+    background-color: #116E32;
+    transition: 1s;
+}
+/* End subcribe --------------------------------------*/
+
+
+
+
+
+/* Footer --------------------------------------*/
+.footer{
+    padding: 50px 0 20px 0;
+    background-color: black;
+    color: white;
+}
+.footer .container{
+    display: flex;
+}
+.footer .container a{
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.footer .container a:hover{
+    text-decoration:underline;
+}
+.footer .container h2{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.footer .container .col-l{
+    width: 50%;
+}
+.footer .container .col-r{
+    display: flex;
+    width: 50%;
+}
+.footer .container .col-r .item{
+    width: 33.33%;
+}
+.footer .container .col-r .link{
+    display: flex;
+    flex-direction: column;
+}
+.footer .last p{
+    text-align: center;
+}
+.footer .last a{
+    color: red;
+    text-decoration: none;
+}
+.footer .last a:hover{
+    text-decoration: underline;
+}
+/* End footer --------------------------------------*/
+
+
+
+
+
+/*  */
+.f-video{
+    padding: 0 0;
+}
+.f-video .container{
+    text-align: center;
+    padding: 0 0;
+}
+.f-video .container .item{
+    position: relative;
+}
+.f-video .container iframe{
+    width: 1000px;
+    height: 600px;
+    /* position: absolute;
+    right: 50%; */
+}
+.f-video .up{
+    display: flex;
+    justify-content: end;
+}
+.f-video .up h2{
+    font-size: 13px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+.f-video .up h2 a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.f-video .up h2 a span{
+    color: red;
+}
+
+
+
+.top i{
+    font-size: 30px;
+    color: white;
+}
+.top{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #189a46;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(15, 162, 67, 0.25), 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+    }
+  }
+  
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164), 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* reponsive*************************************** */
+
+/* màn hình deskop */
+@media screen and (max-width: 1200px) {
+/* Header */
+/* End header */
+
+
+
+
+
+/* Carousel */
+
+/* End carousel */
+
+
+
+
+
+/* Intro */
+/* End intro */
+
+
+
+
+
+/* Service */
+/* End service */
+
+
+
+
+
+/* Offer */
+.offer .container .col-left,
+.offer .container .col-right{
+    width: 100%;
+}
+.offer .container .col-left img{
+    border-radius: 15px;
+    width: 100%;
+}
+/* End offer */
+
+
+
+
+
+/* Statistic */
+/* End statistic */
+
+
+
+
+
+/* Plan */
+/* End plan */
+
+
+
+
+
+/* Commit */
+/* End commit */
+
+
+
+
+
+/* Testimonial */
+/* End testimonial */
+
+
+
+
+
+/* Subcribe */
+/* subcribe */
+
+
+
+
+
+/* Footer */
+/* End footer */
+}
+/* End mà hình deskop */
+
+
+
+
+
+/* Tabblet */
+@media screen and (max-width: 992px) {
+/* Header */
+.header{
+    position: relative;
+}
+.header .container .container-fluid .navbar-collapse.collapse{
+    display: none;
+}
+.header .container .container-fluid .nav-toggler{
+    display: inline-block;
+}
+.header .container .navbar .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End header */
+
+
+
+
+
+/* Carousel */
+/* End carousel */
+
+
+
+
+
+/* Intro */
+/* End intro */
+
+
+
+
+
+/* Service */
+/* End service */
+
+
+
+
+
+/* Offer */
+.offer .container{
+    display: block;
+}
+.offer .container .col-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 0px; */
+}
+.offer .container .col-left,
+.offer .container .col-right{
+    padding: 50px 0px;
+}
+.offer .container .col-left{
+    padding-left: 00px;
+}
+.offer .container .col-left img{
+    width: 100%;
+}
+.offer .container .col-right{
+    text-align: center;
+}
+.offer .container .col-right .item .item1{
+    margin-left: 200px;
+    
+}
+/* End offer */
+
+
+
+
+
+/* Statistic */
+/* End statistic */
+
+
+
+
+
+/* Plan */
+/* End plan */
+
+
+
+
+
+/* Commit */
+/* End commit */
+
+
+
+
+
+/* Testimonial */
+/* End testimonial */
+
+
+
+
+
+/* Subcribe */
+/* subcribe */
+
+
+
+
+
+/* Footer */
+/* End footer */
+
+.f-video .container iframe{
+    width: 700px;
+    margin-right: 50px;
+    
+}
+.f-video .up h2{
+    font-size: 13px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+}
+/* End tablet */
+
+
+
+
+
+/* Mobile ngang */
+@media screen and (max-width: 768px) {
+/* Header */
+.header{
+    position: relative;
+}
+.header .container .container-fluid .navbar-collapse.collapse{
+    display: none;
+}
+.header .container .container-fluid .nav-toggler{
+    display: inline-block;
+}
+.header .container .navbar .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End header */
+
+
+
+
+
+/* Carousel */
+.animal-car .carousel-item img{
+    height: 500px;
+   
+    
+}
+/* End carousel */
+
+
+
+
+
+/* Intro */
+/* End intro */
+
+
+
+
+
+/* Service */
+.animal-ser .container .up{
+    display: block;
+    text-align: center;
+}
+.animal-ser .container .down{
+    display: block;
+    text-align: center;
+}
+.animal-ser .container .up .item1,
+.animal-ser .container .down .item1{
+    margin: 0 0px;
+}
+.animal-ser .container .up .item,
+.animal-ser .container .down .item{
+    margin: 30px 0px;
+}
+.animal-ser .container .up{
+    margin-bottom:  0px;
+}
+/* End service */
+
+
+
+
+
+/* Offer */
+.offer .container{
+    display: block;
+}
+.offer .container .col-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 0px; */
+}
+.offer .container .col-left,
+.offer .container .col-right{
+    padding: 50px 0px;
+}
+.offer .container .col-left{
+    padding-left: 00px;
+}
+.offer .container .col-left img{
+    width: 100%;
+}
+.offer .container .col-right{
+    text-align: center;
+}
+.offer .container .col-right .item .item1{
+    margin-left: 50px;
+    
+}
+/* End offer */
+
+
+
+
+
+/* Statistic */
+/* End statistic */
+
+
+
+
+
+/* Plan */
+.plan .main .container.respon2{
+    display: inline-block;
+}.plan .main .container.respon1{
+    display: none;
+}
+.plan .main .container.respon2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan .main .container .item4{
+    margin: 20px 0;
+}
+.plan .main .container .out{
+    background-color: white;
+}
+.plan .main .container .item .item-1{
+    width: 100%;
+}
+/* End plan */
+
+
+
+
+
+/* Commit */
+/* End commit */
+
+
+
+
+
+/* Testimonial */
+/* End testimonial */
+
+
+
+
+
+/* Subcribe */
+/* subcribe */
+
+
+
+
+
+/* Footer */
+/* End footer */
+.f-video .container iframe{
+    width: 500px;
+    
+}
+.f-video .up h2{
+    font-size: 13px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+}
+/* End mobile ngang */
+
+
+
+
+
+/* mobile dọc */
+@media screen and (max-width: 576px) {
+/* Header */
+.header{
+    position: relative;
+}
+.header .container .container-fluid .navbar-collapse.collapse{
+    display: none;
+}
+.header .container .container-fluid .nav-toggler{
+    display: inline-block;
+}
+.header .container .navbar .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End header */
+
+
+
+
+
+/* Carousel */
+.animal-car{
+    width: 100%;
+}
+.animal-car .carousel-item img{
+    height: 500px;
+    width: 100%;
+    /* max-width: 576px; */
+    
+}
+.animal-car .carousel-item.item-2 h5,
+.animal-car .carousel-item.item-2 p{
+    margin-left: 20px;
+}
+.animal-car .carousel-item h5{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+    /* margin-bottom: 400px; */
+}
+.commit .title .container{
+    max-width: 576px;
+}
+/* End carousel */
+
+
+
+
+
+/* Intro */
+.animal-intro .container h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+/* End intro */
+
+
+
+
+
+/* Service */
+.animal-ser .container .up{
+    display: block;
+    text-align: center;
+}
+.animal-ser .container .down{
+    display: block;
+    text-align: center;
+}
+.animal-ser .container .up .item1,
+.animal-ser .container .down .item1{
+    margin: 0 0px;
+}
+.animal-ser .container .up .item,
+.animal-ser .container .down .item{
+    margin: 30px 0px;
+}
+.animal-ser .container .up{
+    margin-bottom:  0px;
+}
+.animal-ser .container .up .item p,
+.animal-ser .container .down .item p{
+    text-align: justify;
+}
+/* End service */
+
+
+
+
+
+/* Offer */
+.offer .container{
+    display: block;
+}
+.offer .container .col-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 0px; */
+}
+.offer .container .col-left,
+.offer .container .col-right{
+    padding: 50px 0px;
+}
+.offer .container .col-left{
+    padding-left: 00px;
+}
+.offer .container .col-left img{
+    width: 100%;
+}
+.offer .container .col-right{
+    text-align: center;
+}
+.offer .container .col-right .item .item1{
+    margin-left: 50px;
+    
+}
+/* End offer */
+
+
+
+
+
+/* Statistic */
+.statistic{
+    background-color: #e7edf3;
+}
+.statistic .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+.statistic .container .item{
+    background-color: #189a46;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+/* End statistic */
+
+
+
+
+
+/* Plan */
+.plan .main .container.respon2{
+    display: inline-block;
+}.plan .main .container.respon1{
+    display: none;
+}
+.plan .main .container{
+    display: flex;
+    flex-direction: column;
+}
+.plan .main .container .item4{
+    margin: 20px 0;
+}
+.plan .main .container .out{
+    background-color: white;
+}
+.plan .main .container .item .item-1{
+    width: 100%;
+}
+/* End plan */
+
+
+
+
+
+/* Commit */
+/* End commit */
+
+
+
+
+
+/* Testimonial */
+.testi .main .container{
+    max-width: 576px;
+}
+.testi .main .container.container.multiple-items2{
+    display: inline-block;
+}
+.testi .main .container.container.multiple-items{
+    display: none;
+}
+/* End testimonial */
+
+
+
+
+
+/* Subcribe */
+.sub{
+    padding: 50px 0;
+}
+.sub .main .container{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub .main .container input{
+    width: 350px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+/* subcribe */
+
+
+
+
+
+/* Footer */
+.footer .container{
+    flex-direction: column;
+}
+.footer .container .col-l{
+    align-items: center;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.footer .container .col-l .info p{
+    text-align: center;
+}
+.footer .container .col-r{
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 100% !important;
+}
+.footer .container .col-r .item{
+    margin:  20px 0;
+    width: 100%;
+}
+.footer .container .col-r .item h2{
+    text-align: center;
+}
+.footer .container .col-r .item .link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* End footer */
+
+.f-video .container iframe{
+    width: 300px;
+    height: 500px;
+}
+.f-video .up h2{
+    font-size: 13px;
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+}
+
+/* End mobile dọc */
